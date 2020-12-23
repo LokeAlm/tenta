@@ -81,3 +81,6 @@ body {
     color: #c7102f; 
 }
 
+.done {
+    text-decoration: line-through;
+}

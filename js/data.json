@@ -1,10 +1,13 @@
 {
     "task": [
         {
-            "name": "test task"
+            "name": "Vattna blommorna"
         },
         {
-            "name": "test task 2"
+            "name": "Måla en tavla"
+        },
+        {
+            "name": "Äta julbord"
         }
     ]
 }
