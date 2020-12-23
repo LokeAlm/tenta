@@ -1,0 +1,1 @@
+min tentamen i kursen javascript

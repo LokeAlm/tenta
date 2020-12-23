@@ -1,0 +1,83 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #012427;
+    font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.content-wrapper {
+    max-width: 40rem;
+    margin: auto;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: .2rem;
+    background: transparent;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.header {
+    height: 5rem;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.form, .list-item {
+    display: flex;
+    height: 2.5rem;
+}
+.todo-input {
+    flex-basis: 95%;
+    padding: .5rem;
+    font-size: inherit;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.add-btn {
+    flex-basis: 5%;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: #037e4b; 
+    transition: all .2s ease;
+}
+.add-btn:hover {
+    font-size: 1.3rem;
+}
+
+.list {
+    list-style: none;
+    margin-top: 1rem;
+}
+.list-item {
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    padding-left: .5rem;
+    margin: .5rem 0;
+    border: 1px solid #03737e;
+    border-radius: 3px;
+}
+.task {
+    flex-basis: 95%;
+}
+.delete-btn {
+    flex-basis: 5%;
+    border: none;
+    color: #96072b;
+    transition: all .2s ease;
+}
+.delete-btn:hover {
+    font-size: 1.3rem;
+    color: #c7102f; 
+}
+
